@@ -1,1 +1,36 @@
 @import "tailwindcss";
+
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
+
+@theme {
+  /* Fonts (generates `font-sans`) */
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+
+  /* Background*/
+  --background-image-linear-canvas: linear-gradient(
+    to bottom,
+    #d2cdc6,
+    #f5f5f5,
+    #d2cdc6
+  );
+
+  /* Typography / Content (generates `text-primary`, `text-secondary`, `text-disabled`) */
+  --color-primary: #433e3a;
+  --color-secondary: #7d7771;
+  --color-disabled: #bbb6b0;
+
+  /* Buttons & Interactive (generates `bg-btn-dark`, `hover:bg-btn-dark-hover`, etc.) */
+  --color-btn-dark: #635f5b;
+  --color-btn-dark-hover: #4d4945;
+  --color-btn-dark-text: #ffffff;
+
+  --color-btn-light: #fdfdfd;
+  --color-btn-light-border: #d6d2cb;
+  --color-btn-light-text: #433e3a;
+
+  /* Product Swatch Accents (generates `bg-product-ochre`, `bg-product-sage`, etc.) */
+  --color-product-ochre: #d6a942;
+  --color-product-sage: #7c8b64;
+  --color-product-rust: #8b443b;
+}
