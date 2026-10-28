@@ -14,8 +14,8 @@ function App() {
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />
-          <Route path="" element={<TechSpecs />} />
-          <Route path="" element={<Compare />} />
+          <Route path="/TechSpecs" element={<TechSpecs />} />
+          <Route path="/Compare" element={<Compare />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -6,7 +6,7 @@ import Navbar from "../components/Navbar";
 
 const MainLayout = () => {
   return (
-    <div className="min-h-dvh bg-linear-canvas">
+    <div className="relative max-w-7xl min-h-dvh mx-auto">
       <Navbar />
       <Outlet />
       <Footer />
