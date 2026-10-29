@@ -56,9 +56,21 @@
   }
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background-image-linear-canvas);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background-color: #433e3a;
+}
+
 body {
   font-family: var(--font-Poppins);
   background: var(--background-image-linear-canvas);
+  overflow-x: hidden;
 }
 
 .active {
