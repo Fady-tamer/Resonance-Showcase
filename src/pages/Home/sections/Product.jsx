@@ -7,7 +7,7 @@ const Product = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   return (
-    <section className="my-11 lg:my-20 lg:mt-35 flex flex-col items-center gap-10">
+    <section className="max-w-7xl mx-auto my-11 lg:my-20 lg:mt-35 flex flex-col items-center gap-10">
       {/* Header */}
       <div className="text-center px-4">
         <h2 className="text-4xl md:text-5xl lg:text-[56px] text-primary font-semibold tracking-tight">
