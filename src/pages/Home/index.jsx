@@ -2,6 +2,7 @@
 import Features from "./sections/Features";
 import Hero from "./sections/Hero";
 import Product from "./sections/Product";
+import ProductDetails from "./sections/ProductDetails";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Hero />
       <Product />
       <Features />
+      <ProductDetails />
     </div>
   );
 };
