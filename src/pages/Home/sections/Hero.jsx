@@ -9,7 +9,7 @@ const Hero = () => {
       <p className="text-5xl lg:text-[180px] bg-linear-to-t from-[#DACCBC] to-[#AFA497] bg-clip-text text-transparent font-semibold lg:leading-43">
         Aura Pro II
       </p>
-      <img src={heroImg} alt="Aura pro 2" className="lg:absolute -top-15" />
+      <img src={heroImg} alt="Aura pro 2" className="lg:absolute -top-80" />
     </div>
   );
 };
