@@ -20,20 +20,6 @@
   --color-primary: #52483e;
   --color-secondary: #8b8782;
 
-  /* Buttons & Interactive (generates `bg-btn-dark`, `hover:bg-btn-dark-hover`, etc.) */
-  --color-btn-dark: #635f5b;
-  --color-btn-dark-hover: #4d4945;
-  --color-btn-dark-text: #ffffff;
-
-  --color-btn-light: #fdfdfd;
-  --color-btn-light-border: #d6d2cb;
-  --color-btn-light-text: #433e3a;
-
-  /* Product Swatch Accents (generates `bg-product-ochre`, `bg-product-sage`, etc.) */
-  --color-product-ochre: #d6a942;
-  --color-product-sage: #7c8b64;
-  --color-product-rust: #8b443b;
-
   --animate-fade-in: fade-in 0.3s ease-in-out forwards;
   --animate-fade-out: fade-out 0.3s ease-in-out forwards;
 

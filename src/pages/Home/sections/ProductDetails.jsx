@@ -17,7 +17,7 @@ const ProductDetails = () => {
   }, []);
 
   return (
-    <div className="max-w-7xl mx-auto px-6 lg:px-20 pt-20 pb-40 flex flex-col gap-20 overflow-hidden">
+    <div className="max-w-7xl mx-auto px-6 lg:px-20 pt-20 pb-20 lg:pb-40 flex flex-col gap-20 overflow-hidden">
       <div className="flex flex-col items-center gap-4">
         <p className="text-center text-primary text-[42px] lg:text-[56px] font-semibold">
           Every Detail matters

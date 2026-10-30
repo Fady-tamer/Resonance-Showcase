@@ -1,6 +1,7 @@
 // sections
 import Features from "./sections/Features";
 import Hero from "./sections/Hero";
+import Price from "./sections/Price";
 import Product from "./sections/Product";
 import ProductDetails from "./sections/ProductDetails";
 
@@ -11,6 +12,7 @@ const Home = () => {
       <Product />
       <Features />
       <ProductDetails />
+      <Price />
     </div>
   );
 };
