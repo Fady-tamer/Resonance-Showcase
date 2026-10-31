@@ -4,7 +4,7 @@ const ProductSlider = ({ products, children }) => {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   return (
-    <div className="flex flex-col md:flex-row md:items-center lg:flex-col">
+    <div className="p-20 flex flex-col md:flex-row md:items-center lg:flex-col">
       {/* Product */}
       <div className="relative mx-auto flex items-center justify-center overflow-hidden">
         <div

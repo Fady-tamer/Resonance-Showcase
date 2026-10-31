@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 // product data
 import ProductsData from "../../../utils/products";
 
