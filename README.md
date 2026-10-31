@@ -28,7 +28,7 @@ This implementation is built directly from the community Figma concept:
 
 ## 🛠️ Tech Stack
 
-- **Framework:** React / Next.js
+- **Framework:** React 
 - **Styling:** Tailwind CSS
 - **Design Tooling:** Figma
 - **Icons & Assets:** Lucide React / Custom SVG
